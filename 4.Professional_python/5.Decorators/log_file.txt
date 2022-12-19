@@ -1,0 +1,9 @@
+<19 February 2022, 02:08:08> Функция:<get_status> Args:<('https://netology.ru',)> Kwargs:<{}> Результат:<200>
+<19 February 2022, 02:08:09> Функция:<get_status> Args:<('https://netology.ru',)> Kwargs:<{}> Результат:<200>
+<19 February 2022, 02:08:10> Функция:<get_status> Args:<('https://netology.ru',)> Kwargs:<{}> Результат:<200>
+***<19 February 2022, 02:08:17> Функция:<get_status> Args:<('https://netology.ru',)> Kwargs:<{}> Результат:<200>
+***<19 February 2022, 02:08:18> Функция:<get_status> Args:<('https://netology.ru',)> Kwargs:<{}> Результат:<200>
+***<19 February 2022, 02:08:19> Функция:<get_status> Args:<('https://netology.ru',)> Kwargs:<{}> Результат:<200>
+***<19 February 2022, 02:08:29> Функция:<web_scrapper> Args:<(['дизайн', 'фото', 'web', 'python'],)> Kwargs:<{}> Результат:<<function get_log_path.<locals>.get_logfile.<locals>.foo at 0x0000024242A2F430>>
+***<19 February 2022, 02:08:30> Функция:<web_scrapper> Args:<(['дизайн', 'фото', 'web', 'python'],)> Kwargs:<{}> Результат:<<function get_log_path.<locals>.get_logfile.<locals>.foo at 0x00000130F0FCA430>>
+***<19 February 2022, 02:08:32> Функция:<web_scrapper> Args:<(['дизайн', 'фото', 'web', 'python'],)> Kwargs:<{}> Результат:<<function get_log_path.<locals>.get_logfile.<locals>.foo at 0x000001A0C2739430>>

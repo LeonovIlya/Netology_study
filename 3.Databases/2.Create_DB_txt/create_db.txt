@@ -1,0 +1,12 @@
+CREATE DATABASE mydatabase;
+ALTER DATABASE mydatabase OWNER TO %username%;
+
+psql -U %username% -d mydatabase
+
+CREATE TABLE IF NOT EXISTS genres (id serial primary key, genre_name varchar(40));
+
+CREATE TABLE IF NOT EXISTS artists (id serial primary key, artist_name varchar(40) unique not null, genre_id integer references genres(id));
+
+CREATE TABLE IF NOT EXISTS albums (id serial primary key, album_name varchar(40) unique not null, album_year integer, artist_id integer references artists(id));
+
+CREATE TABLE IF NOT EXISTS tracks (id serial primary key, track_name varchar(40) unique not null, track_duration text, album_id integer references albums(id));
